@@ -1,4 +1,3 @@
-````markdown
 # WinGet Auto-Updater (`winget-up`)
 
 Automated app maintenance for Windows 11. Keeps your software updated, system sleep suppressed, processor priority maximized, and desktop clean.
@@ -12,8 +11,6 @@ Open **PowerShell as Administrator** and run:
 ```powershell
 irm [https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat](https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat) -OutFile winget-update.bat; .\winget-update.bat
 ```
-````
-
 ## 🛠️ Usage
 
 | Option        | Method                                                      | Behavior                                                                  |
