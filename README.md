@@ -10,19 +10,16 @@ Automated app maintenance for Windows 11. Keeps your software updated, system sl
 Open **PowerShell as Administrator** and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat -OutFile winget-update.bat; .\winget-update.bat
+irm [https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat](https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat) -OutFile winget-update.bat; .\winget-update.bat
 ```
-
----
+````
 
 ## 🛠️ Usage
 
 | Option        | Method                                                      | Behavior                                                                  |
-| :------------ | :---------------------------------------------------------- | :------------------------------------------------------------------------ |
+| ------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Manual**    | Double-click `winget-update.bat`                            | Runs on demand with live terminal output.                                 |
 | **Automated** | Right-click `install-schedule.bat` → _Run as administrator_ | Registers a background task for the 2nd Sunday of every month at 3:00 AM. |
-
----
 
 ## ✨ Features
 
@@ -33,8 +30,6 @@ irm https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat 
 - **Dynamic Auto-Close:** Uses a 15-second exit timer when software updates occur, and a 5-second timer when no packages require updating.
 - **Catppuccin Mocha Theme:** Styled with native ANSI 24-bit RGB typography.
 
----
-
 ## 📄 License
 
 [MIT](LICENSE)
@@ -42,4 +37,3 @@ irm https://raw.githubusercontent.com/slmzayat/winget-up/main/winget-update.bat 
 ```
 
 ```
-````
